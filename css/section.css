@@ -1,0 +1,36 @@
+.section{
+    max-width:900px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top:30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.alt{
+display: flex;
+
+
+
+
+
+}
+.left{
+    min-width: 50%;
+    flex-grow:1;
+    margin-right:20px;
+    
+}
+.right{
+    flex-grow:1;
+    
+}
+
+@media only screen and (max-width: 600px) {
+   .alt{
+       flex-wrap: wrap;
+   }
+   .left{
+    margin-right:0px;
+
+   }
+  }
